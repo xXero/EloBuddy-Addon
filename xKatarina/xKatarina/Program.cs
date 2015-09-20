@@ -126,7 +126,7 @@ namespace xKatarina
         }
         private static void Harass(bool useQ, bool useW, bool useE)
         {
-           var target = TargetSelector.GetTarget(Q.Range, DamageType.Magical);
+           AIHeroClient target = TargetSelector.GetTarget(Q.Range, DamageType.Magical);
             if (!target.IsValidTarget(E.Range)) return;
 
             if (!target.HasBuffOfType(BuffType.Invulnerability) && !target.IsZombie && !target.IsDead)
@@ -150,7 +150,7 @@ namespace xKatarina
         }
         private static void Combo(bool useQ, bool useW, bool useE, bool useR)
         {
-            var target = TargetSelector.GetTarget(E.Range, DamageType.Magical);
+            AIHeroClient target = TargetSelector.GetTarget(E.Range, DamageType.Magical);
             if (!target.IsValidTarget(E.Range)) return;
 
             if (!target.HasBuffOfType(BuffType.Invulnerability) && !target.IsZombie && !target.IsDead)
@@ -190,7 +190,7 @@ namespace xKatarina
         private static void Killsteal()
         {
             var smartks = KillstealMenu["smartKS"].Cast<CheckBox>().CurrentValue;
-            var target = TargetSelector.GetTarget(Q.Range, DamageType.Magical);
+            AIHeroClient target = TargetSelector.GetTarget(Q.Range, DamageType.Magical);
             {
                
                 if (target != null && target.IsValidTarget(E.Range) && !target.IsDead && target.HealthPercent <= 40)
