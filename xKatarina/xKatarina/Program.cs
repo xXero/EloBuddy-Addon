@@ -222,7 +222,7 @@ namespace xKatarina
                            
                             if (Player.Distance(target.ServerPosition) < W.Range)
                                 W.Cast();
-                            //Game.PrintChat("ks 5");
+                           
                             return;
                         }
                     }
@@ -247,7 +247,7 @@ namespace xKatarina
                         {
                             
                             Q.Cast(target);
-                            //Game.PrintChat("ks 7");
+                            
                             return;
                         }
                         
@@ -260,7 +260,7 @@ namespace xKatarina
                            
                             E.Cast(target);
                            
-                            //Game.PrintChat("ks 8");
+                           
                             return;
                         }
                     }
@@ -274,7 +274,7 @@ namespace xKatarina
                             Orbwalker.DisableAttacking = true;
                             Orbwalker.DisableMovement = true;
                             R.Cast();
-                            //Game.PrintChat("ks 8");
+                          
                             return;
                         }
                     }
