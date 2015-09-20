@@ -1,0 +1,12 @@
+D:\Programme\Elobuddy\GitHub\xKatarina\xKatarina\bin\Debug\xKatarina.exe.config
+D:\Programme\Elobuddy\GitHub\xKatarina\xKatarina\obj\Debug\xKatarina.csprojResolveAssemblyReference.cache
+D:\Programme\Elobuddy\GitHub\xKatarina\xKatarina\bin\Debug\xKatarina.exe
+D:\Programme\Elobuddy\GitHub\xKatarina\xKatarina\bin\Debug\xKatarina.pdb
+D:\Programme\Elobuddy\GitHub\xKatarina\xKatarina\bin\Debug\EloBuddy.dll
+D:\Programme\Elobuddy\GitHub\xKatarina\xKatarina\bin\Debug\EloBuddy.Sandbox.dll
+D:\Programme\Elobuddy\GitHub\xKatarina\xKatarina\bin\Debug\EloBuddy.SDK.dll
+D:\Programme\Elobuddy\GitHub\xKatarina\xKatarina\bin\Debug\Newtonsoft.Json.dll
+D:\Programme\Elobuddy\GitHub\xKatarina\xKatarina\bin\Debug\SharpDX.Direct3D9.dll
+D:\Programme\Elobuddy\GitHub\xKatarina\xKatarina\bin\Debug\SharpDX.dll
+D:\Programme\Elobuddy\GitHub\xKatarina\xKatarina\obj\Debug\xKatarina.exe
+D:\Programme\Elobuddy\GitHub\xKatarina\xKatarina\obj\Debug\xKatarina.pdb
