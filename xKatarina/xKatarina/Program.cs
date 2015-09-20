@@ -98,10 +98,7 @@ namespace xKatarina
 
             }
         }
-        private double MarkDmg(AIHeroClient target)
-        {
-            return target.HasBuff("katarinaqmark") ? Player.GetSpellDamage(target, SpellSlot.Q) : 0;
-        }
+        
         private float GetComboDamage(AIHeroClient enemy)
         {
             double damage = 0d;
